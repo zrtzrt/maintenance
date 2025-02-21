@@ -20,9 +20,6 @@
         <field name="model">maintenance.equipment</field>
         <field name="inherit_id" ref="maintenance.hr_equipment_view_kanban" />
         <field name="arch" type="xml">
-            <field name="activity_ids" position="after">
-                <field name="id" />
-            </field>
             <xpath expr="//t[@t-name='card']/div" position="before">
                 <div class="o_kanban_image mr-1" style="position: absolute; right: 5px;">
                     <field name="image_128" widget="image" options="{'img_class': 'o_image_64_contain mw-100'}" alt="Equipment"/>

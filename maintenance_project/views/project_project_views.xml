@@ -14,11 +14,12 @@
                     groups="maintenance.group_equipment_manager"
                 />
             </xpath>
-            <xpath expr="//t[@t-name='card']" position="inside">
+            <xpath expr="//div[hasclass('o_project_kanban_boxes')]/a[1]" position="after">
                 <a
                     class="o_project_kanban_box"
                     name="action_view_equipment_ids"
                     type="object"
+                    t-if="record.equipment_count.raw_value > 0"
                     groups="maintenance.group_equipment_manager"
                 >
                     <div>
@@ -32,6 +33,7 @@
                     class="o_project_kanban_box"
                     name="action_view_maintenance_request_ids"
                     type="object"
+                    t-if="record.maintenance_request_count.raw_value > 0"
                     groups="maintenance.group_equipment_manager"
                 >
                     <div>

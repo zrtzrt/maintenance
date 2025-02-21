@@ -29,7 +29,7 @@ class MaintenanceLocation(models.Model):
         ondelete="cascade",
     )
     child_id = fields.One2many("maintenance.location", "parent_id", "Child Locations")
-    parent_path = fields.Char(index=True, unaccent=False)
+    parent_path = fields.Char(index=True)
     latitude = fields.Float(digits=(16, 5))
     longitude = fields.Float(digits=(16, 5))
     sequence = fields.Integer(default=10)

@@ -27,7 +27,7 @@ class MaintenanceEquipmentCategory(models.Model):
     child_id = fields.One2many(
         "maintenance.equipment.category", "parent_id", "Child Categories"
     )
-    parent_path = fields.Char(index=True, unaccent=False)
+    parent_path = fields.Char(index=True)
 
     @api.depends("name", "parent_id.complete_name")
     def _compute_complete_name(self):

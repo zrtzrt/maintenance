@@ -8,7 +8,7 @@
             <templates position="before">
                 <field name="in_use" groups="maintenance.group_equipment_manager" />
             </templates>
-            <xpath expr="//t[@t-name='card']/div" position="inside">
+            <xpath expr="//field[@name='activity_ids']" position="before">
                 <span
                     groups="maintenance.group_equipment_manager"
                     class="label label-primary"

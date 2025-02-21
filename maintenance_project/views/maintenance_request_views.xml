@@ -22,17 +22,14 @@
         <field name="model">maintenance.request</field>
         <field name="inherit_id" ref="maintenance.hr_equipment_request_view_kanban" />
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='activity_ids']" position="after">
-                <field name="project_id" groups="project.group_project_user" />
-            </xpath>
-            <xpath expr="//t[@t-name='card']" position="inside">
+            <field name="schedule_date" position="before">
                 <div
-                    t-if="record.project_id.raw_value"
+                    t-if="record.project_id and record.project_id.raw_value"
                     groups="project.group_project_user"
                 >
                     <small>Project: <t t-out="record.project_id.value" /></small>
                 </div>
-            </xpath>
+            </field>
         </field>
     </record>
     <record id="hr_equipment_request_view_form" model="ir.ui.view">

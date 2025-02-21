@@ -22,12 +22,9 @@
         <field name="model">maintenance.equipment</field>
         <field name="inherit_id" ref="maintenance.hr_equipment_view_kanban" />
         <field name="arch" type="xml">
-            <xpath expr="//field[@name='activity_ids']" position="after">
-                <field name="project_id" groups="project.group_project_user" />
-            </xpath>
             <field name="serial_no" position="after">
                 <div
-                    t-if="record.project_id.raw_value"
+                    t-if="record.project_id and record.project_id.raw_value"
                     groups="project.group_project_user"
                 >
                     <small>Project: <t t-out="record.project_id.value" /></small>

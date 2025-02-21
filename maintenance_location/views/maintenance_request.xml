@@ -43,7 +43,7 @@
             <xpath expr="//span/field[@name='equipment_id']/.." position="before">
                 <span
                     name="location_id"
-                    t-if="record.location_id.raw_value"
+                    t-if="record.location_id and record.location_id.raw_value"
                 >Location : <field name="location_id" /><br /></span>
             </xpath>
         </field>
