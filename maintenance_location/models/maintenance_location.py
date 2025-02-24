@@ -14,10 +14,10 @@ class MaintenanceLocation(models.Model):
     _rec_name = "complete_name"
     _order = "complete_name,id"
 
-    name = fields.Char(required=True)
-    description = fields.Char()
+    name = fields.Char(required=True, translate=True)
+    description = fields.Char(translate=True)
     complete_name = fields.Char(
-        compute="_compute_complete_name", store=True, recursive=True
+        compute="_compute_complete_name", store=True, recursive=True, translate=True
     )
 
     partner_id = fields.Many2one("res.partner")

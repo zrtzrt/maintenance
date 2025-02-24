@@ -14,7 +14,7 @@ class MaintenancePlan(models.Model):
     _description = "Maintenance Plan"
     _inherit = ["mail.thread", "mail.activity.mixin"]
 
-    name = fields.Char("Description")
+    name = fields.Char("Description", translate=True)
     active = fields.Boolean(default=True)
     equipment_id = fields.Many2one(
         string="Equipment", comodel_name="maintenance.equipment", ondelete="cascade"
@@ -65,7 +65,7 @@ class MaintenancePlan(models.Model):
         default="year",
         help="Let the event automatically repeat at that interval",
     )
-    note = fields.Html()
+    note = fields.Html(translate=True)
     maintenance_ids = fields.One2many(
         "maintenance.request", "maintenance_plan_id", string="Maintenance requests"
     )

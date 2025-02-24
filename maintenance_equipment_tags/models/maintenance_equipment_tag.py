@@ -13,7 +13,7 @@ class MaintenanceEquipmentTag(models.Model):
     def get_default_color_value(self):
         return randint(1, 15)
 
-    name = fields.Char(string="Equipment Tag", required=True)
+    name = fields.Char(string="Equipment Tag", required=True, translate=True)
     color = fields.Integer(
         string="Color Index (0-15)", default=lambda self: self.get_default_color_value()
     )

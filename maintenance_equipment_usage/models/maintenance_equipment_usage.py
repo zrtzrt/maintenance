@@ -12,7 +12,7 @@ class MaintenanceEquipmentUsage(models.Model):
     _order = "name desc"
 
     name = fields.Char(
-        string="Equipment Usage", copy=False, readonly=True, default=lambda x: _("New")
+        string="Equipment Usage", copy=False, readonly=True, default=lambda x: _("New"), translate=True
     )
     user_id = fields.Many2one(
         comodel_name="res.users",
@@ -74,7 +74,7 @@ class MaintenanceEquipmentUsage(models.Model):
         default=lambda self: self.env.company.id,
         tracking=True,
     )
-    notes = fields.Text()
+    notes = fields.Text(translate=True)
 
     @api.model_create_multi
     def create(self, vals_list):
