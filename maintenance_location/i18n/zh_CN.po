@@ -1,0 +1,181 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.maintenance_location_form_view
+msgid ""
+"<br/>\n"
+"                            Longitude:"
+msgstr ""
+"<br/>\n"
+"                            经度："
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.hr_equipment_view_kanban
+msgid "<i class=\"fa fa-map-marker\" title=\"location\"/>"
+msgstr "<i class=\"fa fa-map-marker\" title=\"location\"/>"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__active
+msgid "Active"
+msgstr "积极"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__child_id
+msgid "Child Locations"
+msgstr "子位置"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__complete_name
+msgid "Complete Name"
+msgstr "完整名称"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__description
+msgid "Description"
+msgstr "描述"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: maintenance_location
+#. odoo-python
+#: code:addons/maintenance_location/models/maintenance_location.py:0
+#, python-format
+msgid "Error ! You cannot create recursive Locations."
+msgstr "错误！您无法创建递归位置。"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__id
+msgid "ID"
+msgstr "身份证"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location____last_update
+msgid "Last Modified on"
+msgstr "上次修改时间"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__write_date
+msgid "Last Updated on"
+msgstr "最后更新日期"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__latitude
+msgid "Latitude"
+msgstr "纬度"
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.maintenance_location_form_view
+msgid "Latitude:"
+msgstr "纬度："
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_equipment__location_id
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_plan__location_id
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_request__location_id
+#: model_terms:ir.ui.view,arch_db:maintenance_location.maintenance_location_form_view
+msgid "Location"
+msgstr "位置"
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.hr_equipment_request_view_kanban
+msgid "Location :"
+msgstr "租赁："
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_equipment__location
+msgid "Location Old"
+msgstr "位置 老"
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.maintenance_location_form_view
+msgid "Location name"
+msgstr "位置名称"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__longitude
+msgid "Longitude"
+msgstr "经度"
+
+#. module: maintenance_location
+#: model:ir.model,name:maintenance_location.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "维护设备"
+
+#. module: maintenance_location
+#: model:ir.actions.act_window,name:maintenance_location.maintenance_location_act_window
+#: model:ir.model,name:maintenance_location.model_maintenance_location
+msgid "Maintenance Location"
+msgstr "维护地点"
+
+#. module: maintenance_location
+#: model:ir.ui.menu,name:maintenance_location.maintenance_location_menu
+msgid "Maintenance Locations"
+msgstr "维护地点"
+
+#. module: maintenance_location
+#: model:ir.model,name:maintenance_location.model_maintenance_plan
+msgid "Maintenance Plan"
+msgstr "维护计划"
+
+#. module: maintenance_location
+#: model:ir.model,name:maintenance_location.model_maintenance_request
+msgid "Maintenance Request"
+msgstr "维护请求"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__name
+msgid "Name"
+msgstr "名字"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__parent_id
+msgid "Parent Location"
+msgstr "父位置"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__parent_path
+msgid "Parent Path"
+msgstr "父路径"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__partner_id
+msgid "Partner"
+msgstr "伙伴"
+
+#. module: maintenance_location
+#: model:ir.model.fields,field_description:maintenance_location.field_maintenance_location__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: maintenance_location
+#: model_terms:ir.ui.view,arch_db:maintenance_location.maintenance_location_form_view
+msgid "e.g. Building A"
+msgstr "例如：Building A"

@@ -1,0 +1,46 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_request_sequence
+#: model:ir.model.fields,field_description:maintenance_request_sequence.field_maintenance_request__code
+msgid "Code"
+msgstr "Code"
+
+#. module: maintenance_request_sequence
+#: model:ir.model,name:maintenance_request_sequence.model_maintenance_request
+msgid "Maintenance Request"
+msgstr "Wartungsanfrage"
+
+#. module: maintenance_request_sequence
+#: model:ir.model,name:maintenance_request_sequence.model_maintenance_team
+msgid "Maintenance Teams"
+msgstr "Wartungsteams"
+
+#. module: maintenance_request_sequence
+#: model:ir.model.fields,field_description:maintenance_request_sequence.field_maintenance_team__code_prefix
+msgid "Prefix for Team Reference"
+msgstr "Präfix für Teamreferenz"
+
+#. module: maintenance_request_sequence
+#: model:ir.model.fields,help:maintenance_request_sequence.field_maintenance_team__code_prefix
+msgid ""
+"Prefix used to generate the internal reference for re created with this "
+"category. If blank the default sequence will be used."
+msgstr ""
+"Präfix, das verwendet wird, um die interne Referenz für die Neuerstellung "
+"mit dieser Kategorie zu generieren. Wenn leer, wird die Standardsequenz "
+"verwendet."
+
+#. module: maintenance_request_sequence
+#: model:ir.model.fields,field_description:maintenance_request_sequence.field_maintenance_team__sequence_id
+msgid "Team Sequence"
+msgstr "Team-Reihenfolge"

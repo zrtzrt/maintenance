@@ -1,0 +1,397 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.hr_equipment_view_form
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.hr_equipment_view_kanban
+msgid ""
+"<span groups=\"maintenance.group_equipment_manager\" class=\"label label-"
+"primary\" invisible=\"not in_use\">In use</span>"
+msgstr ""
+"<span groups=\"maintenance.group_equipment_manager\" class=\"label label-"
+"primary\" invisible=\"not in_use\">使用中</span>"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_needaction
+msgid "Action Needed"
+msgstr "需要采取的行动"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_ids
+msgid "Activities"
+msgstr "活动"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "活动异常装饰"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_state
+msgid "Activity State"
+msgstr "Activity 状态"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Activity Type 图标"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件计数"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_form
+msgid "Cancel"
+msgstr "取消"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields.selection,name:maintenance_equipment_usage.selection__maintenance_equipment_usage__state__cancel
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Cancelled"
+msgstr "取消"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.actions.act_window,help:maintenance_equipment_usage.maintenance_equipment_usage_action
+#: model_terms:ir.actions.act_window,help:maintenance_equipment_usage.maintenance_equipment_usage_action_from_equipment
+msgid "Click to create an Equipment Usage."
+msgstr "单击以创建 Equipment Usage。"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__company_id
+msgid "Company"
+msgstr "公司"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Driver"
+msgstr "司机"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__equipment_id
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Equipment"
+msgstr "设备"
+
+#. module: maintenance_equipment_usage
+#: model:ir.actions.act_window,name:maintenance_equipment_usage.maintenance_equipment_usage_action
+#: model:ir.actions.act_window,name:maintenance_equipment_usage.maintenance_equipment_usage_action_from_equipment
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__name
+msgid "Equipment Usage"
+msgstr "设备使用"
+
+#. module: maintenance_equipment_usage
+#: model:ir.ui.menu,name:maintenance_equipment_usage.submenu_equipment_form
+msgid "Equipments"
+msgstr "设备"
+
+#. module: maintenance_equipment_usage
+#. odoo-python
+#: code:addons/maintenance_equipment_usage/models/maintenance_equipment_usage.py:0
+#, python-format
+msgid "Every equipment can only be picked once at the same time!"
+msgstr "每个装备只能同时领取一次！"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_follower_ids
+msgid "Followers"
+msgstr "追随 者"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "追随者 （合作伙伴）"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "字体真棒图标，例如 fa-tasks"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Group By..."
+msgstr "分组依据..."
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__has_message
+msgid "Has Message"
+msgstr "有消息"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__id
+msgid "ID"
+msgstr "身份证"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_exception_icon
+msgid "Icon"
+msgstr "图标"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "图标以指示异常活动。"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "如果选中此项，则表示需要注意新消息。"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果选中此项，则某些消息会出现 delivery error。"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment__in_use
+#: model:ir.model.fields.selection,name:maintenance_equipment_usage.selection__maintenance_equipment_usage__state__in_use
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "In Use"
+msgstr "使用中"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_is_follower
+msgid "Is Follower"
+msgstr "是 Follower"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__write_date
+msgid "Last Updated on"
+msgstr "最后更新日期"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__partner_id
+msgid "Location"
+msgstr "位置"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model,name:maintenance_equipment_usage.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "维护设备"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model,name:maintenance_equipment_usage.model_maintenance_equipment_usage
+msgid "Maintenance Equipment Usage"
+msgstr "维护设备使用"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传送错误"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_ids
+msgid "Messages"
+msgstr "消息"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "我的活动截止日期"
+
+#. module: maintenance_equipment_usage
+#. odoo-python
+#: code:addons/maintenance_equipment_usage/models/maintenance_equipment_usage.py:0
+#: code:addons/maintenance_equipment_usage/models/maintenance_equipment_usage.py:0
+#: code:addons/maintenance_equipment_usage/models/maintenance_equipment_usage.py:0
+#: model:ir.model.fields.selection,name:maintenance_equipment_usage.selection__maintenance_equipment_usage__state__draft
+#, python-format
+msgid "New"
+msgstr "新增功能"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "下一个活动截止日期"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_summary
+msgid "Next Activity Summary"
+msgstr "下一个活动摘要"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_type_id
+msgid "Next Activity Type"
+msgstr "下一个活动类型"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Not Returned"
+msgstr "未返回"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__notes
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_form
+msgid "Notes"
+msgstr "笔记"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_needaction_counter
+msgid "Number of Actions"
+msgstr "作数"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "需要作的消息数"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "存在传递错误的邮件数量"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_form
+msgid "Pick"
+msgstr "摘"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__picking_user_id
+msgid "Picked up by"
+msgstr "接手"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__date_picking
+msgid "Picking Date"
+msgstr "领料日期"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Picking Date by Month"
+msgstr "按月领料日期"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Picking Month"
+msgstr "采摘月份"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__rating_ids
+msgid "Ratings"
+msgstr "评级"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields.selection,name:maintenance_equipment_usage.selection__maintenance_equipment_usage__state__reserved
+msgid "Reserved"
+msgstr "保留"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_user_id
+msgid "Responsible User"
+msgstr "负责用户"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_form
+msgid "Return"
+msgstr "返回"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__date_return
+msgid "Return Date"
+msgstr "返回日期"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields.selection,name:maintenance_equipment_usage.selection__maintenance_equipment_usage__state__returned
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Returned"
+msgstr "返回"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__return_user_id
+msgid "Returned by"
+msgstr "返回者"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__state
+msgid "State"
+msgstr "状态"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "Status"
+msgstr "状态"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"基于活动的状态\n"
+"逾期：已过截止日期\n"
+"今天：活动日期为今天\n"
+"计划：未来的活动。"
+
+#. module: maintenance_equipment_usage
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.maintenance_equipment_usage_search
+msgid "To Pick"
+msgstr "选取"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "记录的异常活动的类型。"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment__usage_count
+msgid "Usage Count"
+msgstr "使用计数"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment__usage_ids
+#: model:ir.ui.menu,name:maintenance_equipment_usage.menu_maintenance_equipment_usage_action
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_usage.hr_equipment_view_form
+msgid "Usages"
+msgstr "使用"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__user_id
+msgid "User"
+msgstr "用户"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,field_description:maintenance_equipment_usage.field_maintenance_equipment_usage__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: maintenance_equipment_usage
+#: model:ir.model.fields,help:maintenance_equipment_usage.field_maintenance_equipment_usage__website_message_ids
+msgid "Website communication history"
+msgstr "网站通信历史记录"

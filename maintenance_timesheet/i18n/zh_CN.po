@@ -1,0 +1,139 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.hr_equipment_request_view_kanban
+msgid "<span class=\"o_label\">Hours</span>"
+msgstr "<span class=\"o_label\">小时</span>"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.hr_equipment_request_view_form
+msgid ""
+"<span class=\"o_stat_text\">\n"
+"                            Hours\n"
+"                        </span>"
+msgstr ""
+"<span class=\"o_stat_text\">\n"
+"                            小时\n"
+"                        </span>"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "<span id=\"timesheet_information_title\">Timesheet Entries</span>"
+msgstr "<span id=\"timesheet_information_title\">工时单条目</span>"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "<strong>Timesheet Total Hours:</strong>"
+msgstr "<strong>工时单总小时数：</strong>"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "<strong>Total</strong>"
+msgstr "<strong>总计</strong>"
+
+#. module: maintenance_timesheet
+#: model:ir.model,name:maintenance_timesheet.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "分析线"
+
+#. module: maintenance_timesheet
+#. odoo-python
+#: code:addons/maintenance_timesheet/models/hr_timesheet.py:0
+#, python-format
+msgid ""
+"Cannot save or delete a timesheet for a maintenance request already done"
+msgstr "无法保存或删除已完成的维护请求的时间表"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Date"
+msgstr "日期"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Description"
+msgstr "描述"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.equipment_request_view_form
+msgid "Duration (Hour(s))"
+msgstr "持续时间 （小时）"
+
+#. module: maintenance_timesheet
+#: model:ir.model,name:maintenance_timesheet.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "维护设备"
+
+#. module: maintenance_timesheet
+#: model:ir.model,name:maintenance_timesheet.model_maintenance_request
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_account_analytic_line__maintenance_request_id
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_timesheets_analysis_report__maintenance_request_id
+msgid "Maintenance Request"
+msgstr "维护请求"
+
+#. module: maintenance_timesheet
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__planned_hours
+msgid "Planned Hours"
+msgstr "计划工时"
+
+#. module: maintenance_timesheet
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__progress
+msgid "Progress"
+msgstr "进展"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Project -"
+msgstr "项目-"
+
+#. module: maintenance_timesheet
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__remaining_hours
+msgid "Remaining Hours"
+msgstr "剩余时间"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.hr_timesheet_line_search
+msgid "Request"
+msgstr "请求"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Responsible"
+msgstr "负责"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Task"
+msgstr "任务"
+
+#. module: maintenance_timesheet
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.report_maintenance_request_document
+msgid "Time"
+msgstr "时间"
+
+#. module: maintenance_timesheet
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__timesheet_total_hours
+msgid "Timesheet Total Hours"
+msgstr "工时单总小时数"
+
+#. module: maintenance_timesheet
+#: model:ir.actions.act_window,name:maintenance_timesheet.timesheet_action_from_request
+#: model:ir.model.fields,field_description:maintenance_timesheet.field_maintenance_request__timesheet_ids
+#: model_terms:ir.ui.view,arch_db:maintenance_timesheet.equipment_request_view_form
+msgid "Timesheets"
+msgstr "工时单"
+
+#. module: maintenance_timesheet
+#: model:ir.model,name:maintenance_timesheet.model_timesheets_analysis_report
+msgid "Timesheets Analysis Report"
+msgstr "工时单分析报告"

@@ -1,0 +1,121 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__active
+msgid "Active"
+msgstr "积极"
+
+#. module: maintenance_equipment_status
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_search
+msgid "Archived"
+msgstr "存档"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__category_ids
+msgid "Categories"
+msgstr "类别"
+
+#. module: maintenance_equipment_status
+#: model_terms:ir.actions.act_window,help:maintenance_equipment_status.maintenance_equipment_status_action
+msgid "Click to set a new status for your equipments."
+msgstr "单击可为您的设备设置新状态。"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: maintenance_equipment_status
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_search
+msgid "Equipment Status"
+msgstr "设备状态"
+
+#. module: maintenance_equipment_status
+#: model:ir.actions.act_window,name:maintenance_equipment_status.maintenance_equipment_status_action
+#: model:ir.ui.menu,name:maintenance_equipment_status.menu_maintenance_equipment_status_act
+msgid "Equipment Statuses"
+msgstr "设备状态"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__id
+msgid "ID"
+msgstr "身份证"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__write_date
+msgid "Last Updated on"
+msgstr "最后更新日期"
+
+#. module: maintenance_equipment_status
+#: model:ir.model,name:maintenance_equipment_status.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "维护设备"
+
+#. module: maintenance_equipment_status
+#: model:ir.model,name:maintenance_equipment_status.model_maintenance_equipment_status
+msgid "Maintenance Equipment Status"
+msgstr "维护设备状态"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__name
+msgid "Name"
+msgstr "名字"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__note
+msgid "Note"
+msgstr "笔记"
+
+#. module: maintenance_equipment_status
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
+msgid "Notes"
+msgstr "笔记"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment_status__sequence
+msgid "Sequence"
+msgstr "序列"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,field_description:maintenance_equipment_status.field_maintenance_equipment__status_id
+msgid "Status"
+msgstr "地位"
+
+#. module: maintenance_equipment_status
+#: model:ir.model.fields,help:maintenance_equipment_status.field_maintenance_equipment_status__category_ids
+msgid ""
+"When set, this status will only be applicable to the equipments under these "
+"categories."
+msgstr "设置后，此状态将仅适用于这些类别下的设备。"
+
+#. module: maintenance_equipment_status
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_status.maintenance_equipment_status_view_form
+msgid "e.g. Operational"
+msgstr "例如，作"

@@ -13,499 +13,507 @@ msgstr ""
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.report_maintenance_request_document
 msgid "<strong>Instructions:</strong>"
-msgstr "<strong>说明：</strong>"
+msgstr "<strong>Anleitung:</strong>"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_needaction
 msgid "Action Needed"
-msgstr "需要采取的行动"
+msgstr "Handlungsbedarf"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__active
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_search
 msgid "Active"
-msgstr "积极"
+msgstr "Aktiv"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__active
 msgid "Active Kind"
-msgstr "活动种类"
+msgstr "Aktive Art"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_ids
 msgid "Activities"
-msgstr "活动"
+msgstr "Aktivitäten"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_exception_decoration
 msgid "Activity Exception Decoration"
-msgstr "活动异常装饰"
+msgstr "Dekoration für Aktivitätsausnahmen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_state
 msgid "Activity State"
-msgstr "Activity 状态"
+msgstr "Status der Aktivität"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_type_icon
 msgid "Activity Type Icon"
-msgstr "Activity Type 图标"
+msgstr "Symbol für Aktivitätstyp"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__generate_domain
 msgid "Apply on"
-msgstr "申请日期"
+msgstr "Bewerben auf"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Archived"
-msgstr "存档"
+msgstr "Archiviert"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_attachment_count
 msgid "Attachment Count"
-msgstr "附件计数"
+msgstr "Anzahl der Anhänge"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__company_id
 msgid "Company"
-msgstr "公司"
+msgstr "Firma"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__create_uid
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__create_uid
 msgid "Created by"
-msgstr "创建者"
+msgstr "Erstellt von"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__create_date
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__create_date
 msgid "Created on"
-msgstr "创建时间"
+msgstr "Erstellt am"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_open_count
 msgid "Current Maintenance"
-msgstr "当前维护"
+msgstr "Laufende Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__start_maintenance_date
 msgid "Date from which the maintenance will we active"
-msgstr "我们将激活维护的日期"
+msgstr "Datum, ab dem die Wartung aktiv wird"
 
 #. module: maintenance_plan
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__interval_step__day
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__planning_step__day
 msgid "Day(s)"
-msgstr "天"
+msgstr "Tag(e)"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_request_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Describe the maintenance to do..."
-msgstr "描述要做的维护..."
+msgstr "Beschreiben Sie die durchzuführende Wartung..."
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__name
 msgid "Description"
-msgstr "描述"
+msgstr "Beschreibung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__display_name
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__display_name
 msgid "Display Name"
-msgstr "显示名称"
+msgstr "Anzeigename"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__skip_notify_follower_on_requests
 msgid "Do not notify to follower when creating requests?"
-msgstr "创建请求时不通知关注者？"
+msgstr "Beim Erstellen von Anfragen nicht an den Follower benachrichtigen?"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__duration
 msgid "Duration (hours)"
-msgstr "持续时间 （小时）"
+msgstr "Dauer (Stunden)"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__equipment_id
 msgid "Equipment"
-msgstr "设备"
+msgstr "Ausrüstung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_follower_ids
 msgid "Followers"
-msgstr "追随 者"
+msgstr "Anhänger"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "追随者 （合作伙伴）"
+msgstr "Follower (Partner)"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__activity_type_icon
 msgid "Font awesome icon e.g. fa-tasks"
-msgstr "字体真棒图标，例如 fa-tasks"
+msgstr "Font awesome icon z.B. fa-tasks"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__interval
 msgid "Frequency"
-msgstr "频率"
+msgstr "Frequenz"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__generate_with_domain
 msgid "Generate With Domain"
-msgstr "使用 Domain 生成"
+msgstr "Mit Domäne generieren"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Generate requests for current threshold"
-msgstr "为当前阈值生成请求"
+msgstr "Generieren von Anforderungen für den aktuellen Schwellenwert"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__has_message
 msgid "Has Message"
-msgstr "有消息"
+msgstr "Hat Nachricht"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__id
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__id
 msgid "ID"
-msgstr "身份证"
+msgstr "ID"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_exception_icon
 msgid "Icon"
-msgstr "图标"
+msgstr "Ikone"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__activity_exception_icon
 msgid "Icon to indicate an exception activity."
-msgstr "图标以指示异常活动。"
+msgstr ", um eine Ausnahmeaktivität anzuzeigen."
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr "如果选中此项，则表示需要注意新消息。"
+msgstr ""
+"Wenn diese Option aktiviert ist, ist für neue Nachrichten Ihre "
+"Aufmerksamkeit erforderlich."
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr "如果选中此项，则某些消息会出现 delivery error。"
+msgstr ""
+"Wenn diese Option aktiviert ist, weisen einige Nachrichten einen "
+"Zustellungsfehler auf."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "If not clicked, the scheduled action will do it for you."
-msgstr "如果未单击，则计划作将为您执行此作。"
+msgstr ""
+"Wenn Sie nicht darauf klicken, erledigt die geplante Aktion dies für Sie."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_search
 msgid "Inactive"
-msgstr "无效"
+msgstr "Inaktiv"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_request_view_form
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Instructions"
-msgstr "指示"
+msgstr "Anweisungen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__interval
 msgid "Interval between each maintenance"
-msgstr "每次维护之间的间隔"
+msgstr "Intervall zwischen den einzelnen Wartungsarbeiten"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_is_follower
 msgid "Is Follower"
-msgstr "是 Follower"
+msgstr "Ist Follower"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "Kind"
-msgstr "类"
+msgstr "Art"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__write_uid
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__write_uid
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "Zuletzt aktualisiert von"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__write_date
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__write_date
 msgid "Last Updated on"
-msgstr "最后更新日期"
+msgstr "Zuletzt aktualisiert am"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__planning_step
 msgid "Let the event automatically repeat at that interval"
-msgstr "让事件按该间隔自动重复"
+msgstr "Lassen Sie das Ereignis in diesem Intervall automatisch wiederholen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__interval_step
 msgid "Let the event automatically repeat at that interval step"
-msgstr "让事件在该间隔步骤中自动重复"
+msgstr ""
+"Lassen Sie das Ereignis in diesem Intervallschritt automatisch wiederholen"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/models/maintenance_plan.py:0
 #, python-format
 msgid "Maintenace Equipment must belong to the equipment's company"
-msgstr "维护设备必须属于设备公司"
+msgstr "Wartungsgeräte müssen dem Unternehmen des Geräts gehören"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_count
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Maintenance"
-msgstr "保养"
+msgstr "Instandhaltung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_equipment__search_maintenance_plan_count
 msgid "Maintenance All Plan Count"
-msgstr "维护所有计划计数"
+msgstr "Anzahl der Wartungspläne"
 
 #. module: maintenance_plan
 #: model:ir.model,name:maintenance_plan.model_maintenance_equipment
 msgid "Maintenance Equipment"
-msgstr "维护设备"
+msgstr "Wartungsausrüstung"
 
 #. module: maintenance_plan
 #: model:ir.model,name:maintenance_plan.model_maintenance_kind
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_kind_id
 msgid "Maintenance Kind"
-msgstr "维护类型"
+msgstr "Art der Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model,name:maintenance_plan.model_maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Maintenance Plan"
-msgstr "维护计划"
+msgstr "Wartungsplan"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_equipment__maintenance_plan_count
 msgid "Maintenance Plan Count"
-msgstr "维护计划计数"
+msgstr "Anzahl der Wartungspläne"
 
 #. module: maintenance_plan
 #: model:ir.ui.menu,name:maintenance_plan.menu_m_plan_form
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_search
 msgid "Maintenance Plans"
-msgstr "维护计划"
+msgstr "Wartungspläne"
 
 #. module: maintenance_plan
 #: model:ir.model,name:maintenance_plan.model_maintenance_request
 msgid "Maintenance Request"
-msgstr "维护请求"
+msgstr "Wartungsanfrage"
 
 #. module: maintenance_plan
 #: model:ir.actions.act_window,name:maintenance_plan.hr_equipment_request_action_from_plan
 msgid "Maintenance Requests"
-msgstr "维护请求"
+msgstr "Wartungsanfragen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_team_id
 msgid "Maintenance Team"
-msgstr "维护团队"
+msgstr "Wartungsteam"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_equipment__maintenance_team_required
 msgid "Maintenance Team Required"
-msgstr "需要维护团队"
+msgstr "Wartungsteam erforderlich"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__duration
 msgid "Maintenance duration in hours"
-msgstr "维护持续时间（小时）"
+msgstr "Wartungsdauer in Stunden"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_request__maintenance_kind_id
 msgid "Maintenance kind"
-msgstr "维护种类"
+msgstr "Art der Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model.constraint,message:maintenance_plan.constraint_maintenance_kind_name_uniq
 msgid "Maintenance kind name already exists."
-msgstr "维护类型名称已存在。"
+msgstr "Der Name der Wartungsart ist bereits vorhanden."
 
 #. module: maintenance_plan
 #: model:ir.actions.act_window,name:maintenance_plan.maintenance_kind_action
 #: model:ir.ui.menu,name:maintenance_plan.menu_maintenance_kind_configuration
 msgid "Maintenance kinds"
-msgstr "维护种类"
+msgstr "Arten der Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_equipment__maintenance_plan_ids
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_request__maintenance_plan_id
 msgid "Maintenance plan"
-msgstr "维护计划"
+msgstr "Wartungsplan"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__maintenance_plan_horizon
 msgid ""
 "Maintenance planning horizon. Only the maintenance requests inside the "
 "horizon will be created."
-msgstr "维护计划范围。将仅创建 Horizon 内的维护请求。"
+msgstr ""
+"Horizont für die Wartungsplanung. Es werden nur die Wartungsanfragen "
+"innerhalb des Horizonts erstellt."
 
 #. module: maintenance_plan
 #: model:ir.actions.act_window,name:maintenance_plan.maintenance_plan_action
 #: model:ir.actions.act_window,name:maintenance_plan.maintenance_plan_equipment_action
 msgid "Maintenance plans"
-msgstr "维护计划"
+msgstr "Wartungspläne"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_ids
 msgid "Maintenance requests"
-msgstr "维护请求"
+msgstr "Wartungsanfragen"
 
 #. module: maintenance_plan
 #: model:ir.actions.server,name:maintenance_plan.maintenance_requests_cron_ir_actions_server
 msgid "Maintenance: generate preventive maintenance requests"
-msgstr "维护：生成预防性维护请求"
+msgstr "Wartung: Generieren Sie Anfragen für vorbeugende Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_has_error
 msgid "Message Delivery error"
-msgstr "消息传送错误"
+msgstr "Fehler bei der Nachrichtenübermittlung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_ids
 msgid "Messages"
-msgstr "消息"
+msgstr "Meldungen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__interval_step__month
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__planning_step__month
 msgid "Month(s)"
-msgstr "月"
+msgstr "Monat(e)"
 
 #. module: maintenance_plan
 #: model:maintenance.kind,name:maintenance_plan.maintenance_kind_monthly
 msgid "Monthly"
-msgstr "每月"
+msgstr "Monatlich"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__my_activity_date_deadline
 msgid "My Activity Deadline"
-msgstr "我的活动截止日期"
+msgstr "Deadline für meine Aktivität"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_kind__name
 msgid "Name"
-msgstr "名字"
+msgstr "Name"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_date_deadline
 msgid "Next Activity Deadline"
-msgstr "下一个活动截止日期"
+msgstr "Nächster Einsendeschluss für die Aktivität"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_summary
 msgid "Next Activity Summary"
-msgstr "下一个活动摘要"
+msgstr "Zusammenfassung der nächsten Aktivität"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_type_id
 msgid "Next Activity Type"
-msgstr "下一个活动类型"
+msgstr "Nächste Aktivitätsart"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__next_maintenance_date
 msgid "Next Maintenance Date"
-msgstr "下次维护日期"
+msgstr "Nächster Wartungstermin"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__note
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_request__note
 msgid "Note"
-msgstr "笔记"
+msgstr "Notizen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_equipment__notes
 msgid "Notes"
-msgstr "笔记"
+msgstr "Notizen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_needaction_counter
 msgid "Number of Actions"
-msgstr "作数"
+msgstr "Anzahl der Aktionen"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__message_has_error_counter
 msgid "Number of errors"
-msgstr "错误数"
+msgstr "Anzahl der Fehler"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__message_needaction_counter
 msgid "Number of messages requiring action"
-msgstr "需要作的消息数"
+msgstr "Anzahl der Meldungen, die eine Aktion erfordern"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr "存在传递错误的邮件数量"
+msgstr "Anzahl der Nachrichten mit Zustellungsfehler"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "P. Horizon period"
-msgstr "P. 水平周期"
+msgstr "P. Zeitraum des Horizonts"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "P. Horizon step"
-msgstr "P. 水平线步骤"
+msgstr "P. Horizont-Schritt"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "Planning Horizon"
-msgstr "规划地平线"
+msgstr "Planungshorizont"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__maintenance_plan_horizon
 msgid "Planning Horizon period"
-msgstr "规划 Horizon（区间）期间"
+msgstr "Zeitraum Planungshorizont"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__planning_step
 msgid "Planning Horizon step"
-msgstr "规划 Horizon 步骤"
+msgstr "Schritt Planungshorizont"
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "Plans"
-msgstr "计划"
+msgstr "Plant"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/models/maintenance_equipment.py:0
 #, python-format
 msgid "Preventive Maintenance (%(kind)s) - %(description)s"
-msgstr "预防性维护 （%（种类）） - %（描述）s"
+msgstr "Vorbeugende Wartung (%(Art)s) - %(Beschreibung)s"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/tests/test_maintenance_plan.py:0
 #, python-format
 msgid "Preventive Maintenance (%(kind)s) - %(plan)s"
-msgstr "预防性维护 （%（种类）） - %（计划）"
+msgstr "Vorbeugende Instandhaltung (%(art)s) - %(plan)s"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__rating_ids
 msgid "Ratings"
-msgstr "评级"
+msgstr "Einschaltquoten"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__interval_step
 msgid "Recurrence"
-msgstr "复发"
+msgstr "Wiederholung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__activity_user_id
 msgid "Responsible User"
-msgstr "负责用户"
+msgstr "Verantwortungsbewusster Benutzer"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__search_equipment_id
 msgid "Search Equipment"
-msgstr "搜索设备"
+msgstr "Ausrüstung suchen"
 
 #. module: maintenance_plan
 #. odoo-python
@@ -514,17 +522,19 @@ msgstr "搜索设备"
 msgid ""
 "Some maintenance plan's company is incompatible with the company of this "
 "equipment."
-msgstr "某些维护计划的公司与此设备的公司不兼容。"
+msgstr ""
+"Das Unternehmen einiger Wartungspläne ist nicht mit dem Unternehmen dieses "
+"Geräts kompatibel."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "Start Date"
-msgstr "开始日期"
+msgstr "Startdatum"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__start_maintenance_date
 msgid "Start Maintenance Date"
-msgstr "开始维护日期"
+msgstr "Datum des Beginns der Wartung"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__activity_state
@@ -534,15 +544,15 @@ msgid ""
 "Today: Activity date is today\n"
 "Planned: Future activities."
 msgstr ""
-"基于活动的状态\n"
-"逾期：已过截止日期\n"
-"今天：活动日期为今天\n"
-"计划：未来的活动。"
+"Status basierend auf Aktivitäten\n"
+"Überfällig: Fälligkeitsdatum ist bereits überschritten\n"
+"Heute: Das Datum der Aktivität ist heute\n"
+"Geplant: Zukünftige Aktivitäten."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.hr_equipment_view_form
 msgid "Team"
-msgstr "团队"
+msgstr "Mannschaft"
 
 #. module: maintenance_plan
 #. odoo-python
@@ -552,86 +562,91 @@ msgid ""
 "The maintenance plan %(kind)s of equipment %(eqpmnt)s has generated a "
 "request which is not done yet. You should either set the request as done, "
 "remove its maintenance kind or delete it first."
-msgstr "设备 %（eqpmnt）s 的维护计划 %（kind）s 生成了尚未完成的请求。您应该将请求设置为 done，删除其维护类型或先将其删除。"
+msgstr ""
+"Der Wartungsplan %(Art)s von Geräten %(eqpmnt)s hat eine Anfrage generiert, "
+"die noch nicht erledigt ist. Sie sollten die Anforderung entweder auf "
+"erledigt setzen, ihre Wartungsart entfernen oder sie zuerst löschen."
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__activity_exception_decoration
 msgid "Type of the exception activity on record."
-msgstr "记录的异常活动的类型。"
+msgstr "Typ der aufgezeichneten Ausnahmeaktivität."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_search
 msgid "Under Maintenance"
-msgstr "维护中"
+msgstr "Unter Wartung"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/tests/test_maintenance_plan.py:0
 #, python-format
 msgid "Unnamed %(kind)s plan (%(eqpmnt)s)"
-msgstr "未命名 %（kind）s 计划 （%（eqpmnt）s）"
+msgstr "Unbenannter %(kind)s Plan (%(eqpmnt)s)"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/models/maintenance_plan.py:0
 #, python-format
 msgid "Unnamed %(kind)s plan (%(eqpmt)s)"
-msgstr "未命名的 %（kind）s 计划 （%（eqpmt）s）"
+msgstr "Unbenannter %(Kind)s-Plan (%(eqpmt)s)"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/tests/test_maintenance_plan.py:0
 #, python-format
 msgid "Unnamed %(void)s plan (%(eqpmnt)s)"
-msgstr "未命名的 %（void）s 计划 （%（eqpmnt）s）"
+msgstr "Unbenannter %(void)s-Plan (%(eqpmnt)s)"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/models/maintenance_equipment.py:0
 #, python-format
 msgid "Unspecified kind"
-msgstr "未指定的类型"
+msgstr "Nicht spezifizierte Art"
 
 #. module: maintenance_plan
 #. odoo-python
 #: code:addons/maintenance_plan/models/maintenance_plan.py:0
 #, python-format
 msgid "Unsupported search operator"
-msgstr "不支持的搜索运算符"
+msgstr "Nicht unterstützter Suchoperator"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,field_description:maintenance_plan.field_maintenance_plan__website_message_ids
 msgid "Website Messages"
-msgstr "网站消息"
+msgstr "Website-Nachrichten"
 
 #. module: maintenance_plan
 #: model:ir.model.fields,help:maintenance_plan.field_maintenance_plan__website_message_ids
 msgid "Website communication history"
-msgstr "网站通信历史记录"
+msgstr "Geschichte der Website-Kommunikation"
 
 #. module: maintenance_plan
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__interval_step__week
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__planning_step__week
 msgid "Week(s)"
-msgstr "周"
+msgstr "Woche(n)"
 
 #. module: maintenance_plan
 #: model:maintenance.kind,name:maintenance_plan.maintenance_kind_weekly
 msgid "Weekly"
-msgstr "周刊"
+msgstr "Wöchentlich"
 
 #. module: maintenance_plan
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__interval_step__year
 #: model:ir.model.fields.selection,name:maintenance_plan.selection__maintenance_plan__planning_step__year
 msgid "Year(s)"
-msgstr "年份"
+msgstr "Jahr(e)"
 
 #. module: maintenance_plan
 #: model:ir.model.constraint,message:maintenance_plan.constraint_maintenance_plan_equipment_kind_uniq
 msgid ""
 "You cannot define multiple times the same maintenance kind on an equipment "
 "maintenance plan."
-msgstr "您不能在设备维护计划中定义多次相同的维护类型。"
+msgstr ""
+"Sie können nicht mehrmals dieselbe Wartungsart in einem Gerätewartungsplan "
+"definieren."
 
 #. module: maintenance_plan
 #. odoo-python
@@ -641,9 +656,13 @@ msgid ""
 "You have multiple preventive maintenance requests on equipment %(name)s next"
 " action date (%(date)s). Please leave only one preventive request on the "
 "date of equipment's next action to install the module."
-msgstr "您对设备 %（name） 的下一个作日期 （%（date） 有多个预防性维护请求。请在设备下一步安装模块的日期留下一个预防性请求。"
+msgstr ""
+"Sie haben mehrere Anfragen zur vorbeugenden Wartung für das nächste "
+"Aktionsdatum von Gerät %(Name)s (%(Datum)s). Bitte hinterlassen Sie nur eine"
+" vorbeugende Anfrage am Tag der nächsten Aktion des Geräts zur Installation "
+"des Moduls."
 
 #. module: maintenance_plan
 #: model_terms:ir.ui.view,arch_db:maintenance_plan.maintenance_plan_view_form
 msgid "e.g. Calibration"
-msgstr "例如，校准"
+msgstr "z.B. Kalibrierung"

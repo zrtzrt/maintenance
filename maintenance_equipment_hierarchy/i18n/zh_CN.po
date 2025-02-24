@@ -1,0 +1,83 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__child_ids
+msgid "Child Equipments"
+msgstr "子设备"
+
+#. module: maintenance_equipment_hierarchy
+#. odoo-python
+#: code:addons/maintenance_equipment_hierarchy/models/maintenance_equipment.py:0
+#, python-format
+msgid "Child equipment of %s"
+msgstr "%s 的子设备"
+
+#. module: maintenance_equipment_hierarchy
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_hierarchy.hr_equipment_view_form
+msgid "Children"
+msgstr "子设备"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__complete_name
+msgid "Complete Name"
+msgstr "完整名称"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: maintenance_equipment_hierarchy
+#: model:maintenance.equipment,name:maintenance_equipment_hierarchy.equipment_computer9_1
+msgid "HP Laptop battery"
+msgstr "HP 笔记本电脑电池"
+
+#. module: maintenance_equipment_hierarchy
+#: model:maintenance.equipment,name:maintenance_equipment_hierarchy.equipment_computer9_2
+msgid "HP Laptop case"
+msgstr "HP 笔记本电脑包"
+
+#. module: maintenance_equipment_hierarchy
+#: model_terms:ir.ui.view,arch_db:maintenance_equipment_hierarchy.hr_equipment_view_search
+msgid "Has Children"
+msgstr "有子设备"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__parent_left
+msgid "Left Parent"
+msgstr "左父级"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model,name:maintenance_equipment_hierarchy.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "维护设备"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__child_count
+msgid "Number of child equipments"
+msgstr "子设备数量"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__parent_id
+msgid "Parent Equipment"
+msgstr "父设备"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__parent_path
+msgid "Parent Path"
+msgstr "父路径"
+
+#. module: maintenance_equipment_hierarchy
+#: model:ir.model.fields,field_description:maintenance_equipment_hierarchy.field_maintenance_equipment__parent_right
+msgid "Right Parent"
+msgstr "右父项"

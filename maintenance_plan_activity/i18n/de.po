@@ -1,0 +1,103 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__date_before_request
+msgid "# Days before request"
+msgstr "# Tage vor der Anfrage"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__activity_type_id
+msgid "Activity Type"
+msgstr "Art der Aktivität"
+
+#. module: maintenance_plan_activity
+#. odoo-python
+#: code:addons/maintenance_plan_activity/models/maintenance.py:0
+#, python-format
+msgid "Activity automatically generated from maintenance plan"
+msgstr "Automatisch generierte Aktivität aus dem Wartungsplan"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__create_uid
+msgid "Created by"
+msgstr "Erstellt von"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__create_date
+msgid "Created on"
+msgstr "Erstellt am"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__display_name
+msgid "Display Name"
+msgstr "Anzeigename"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__id
+msgid "ID"
+msgstr "ID"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity____last_update
+msgid "Last Modified on"
+msgstr "Zuletzt geändert am"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__write_uid
+msgid "Last Updated by"
+msgstr "Zuletzt aktualisiert von"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__write_date
+msgid "Last Updated on"
+msgstr "Zuletzt aktualisiert am"
+
+#. module: maintenance_plan_activity
+#: model:ir.model,name:maintenance_plan_activity.model_maintenance_equipment
+msgid "Maintenance Equipment"
+msgstr "Wartungsausrüstung"
+
+#. module: maintenance_plan_activity
+#: model:ir.model,name:maintenance_plan_activity.model_maintenance_plan
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__maintenance_plan_id
+msgid "Maintenance Plan"
+msgstr "Wartungsplan"
+
+#. module: maintenance_plan_activity
+#: model:ir.model,name:maintenance_plan_activity.model_maintenance_planned_activity
+msgid "Maintenance Planned Activity"
+msgstr "Geplante Instandhaltungsleistung"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_plan__planned_activity_ids
+msgid "Planned Activities"
+msgstr "Geplante Aktivitäten"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,field_description:maintenance_plan_activity.field_maintenance_planned_activity__user_id
+msgid "Responsible"
+msgstr "Verantwortlich"
+
+#. module: maintenance_plan_activity
+#: model_terms:ir.ui.view,arch_db:maintenance_plan_activity.maintenance_plan_view_form
+msgid "Scheduled Activities"
+msgstr "Geplante Aktivitäten"
+
+#. module: maintenance_plan_activity
+#: model:ir.model.fields,help:maintenance_plan_activity.field_maintenance_planned_activity__date_before_request
+msgid ""
+"This is the number of days the due date of the activity will beset before "
+"the Maintenance request scheduled date"
+msgstr ""
+"Dies ist die Anzahl der Tage, die das Fälligkeitsdatum der Aktivität vor dem"
+" geplanten Datum der Wartungsanfrage festgelegt wird"
